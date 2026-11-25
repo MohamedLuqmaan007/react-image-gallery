@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,26 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# React Image Gallery
+
+A responsive image gallery built with React and Vite.
+
+## Features
+
+- Reusable `ImageCard` component
+- Image data stored in an array of objects
+- Cards rendered dynamically with `map()`
+- Data passed from parent to child using props
+- Responsive CSS grid layout
+- React Fragments to avoid extra DOM elements
+
+## Getting Started
+
+    npm install
+    npm run dev
+
+## Adding an Image
+
+Add a new object to `src/data/images.js`. It will appear in the gallery automatically.
+>>>>>>> b8614ead5a3e8b4d6c3632edc2e987684e009833
